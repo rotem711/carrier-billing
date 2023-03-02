@@ -1,0 +1,33 @@
+{
+  "name": "carrier-billing",
+  "version": "1.0.0",
+  "description": "Carrier Billing Script",
+  "main": "accounts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "update-rates": "node update-rates.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/larsonlaidlaw/carrier-billing.git"
+  },
+  "keywords": [
+    "career",
+    "billing",
+    "script"
+  ],
+  "author": "Rotem",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/larsonlaidlaw/carrier-billing/issues"
+  },
+  "homepage": "https://github.com/larsonlaidlaw/carrier-billing#readme",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "csv-stringify": "^6.2.4",
+    "glob": "^8.1.0",
+    "xlsx": "^0.18.5"
+  }
+}
